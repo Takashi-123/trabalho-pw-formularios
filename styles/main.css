@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://img.ibxk.com.br///2019/11/27/27144836172153.jpg?w=1200&h=675&mode=crop&scale=both");
+    background-size: 1352px 663px;
+}
+
+.Opacidade {
+    text-align: center;
+}
+
+.Textos {
+    text-align:left;
+}
+
+form {
+    background-color: rgb(60, 18, 177);
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    opacity: 85%;
+}
+
+.elemento-sozinho {
+    display: block;
+    margin-bottom: 14px;
+    width: 97%;
+}
+
+li:hover{
+    background-color: aqua;
+}
+button {
+    background-color: rgb(56, 148, 105);
+    border: 2px solid rgb(75, 192, 138);
+    border-radius: 4px;
+    
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+    color:rgb(130, 218, 177);
+}
+
+.Centralização {
+    
+        margin: 0 auto;
+        width: 30%; /* Valor da Largura */
+        
+}
