@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introdução ao JacaScript</title>
+</head>
+<body>
+
+    <style>
+        .negrito{
+            font-weight: bold;
+        }
+
+        .vermelho{
+            color:rgb(255, 0, 0)
+        }
+
+        .caixa-alta{
+            text-transform: uppercase;
+        }
+    </style>
+    <input type="text" name="usuario" id="loginUsuario" placeholder="Usuário">
+    <input type="password" name="Senha" id="loginSenha" placeholder="Senha">
+    
+    <button onclick="exibir()">Entrar</button>
+
+    <p>
+        Leia o 
+        <span class="cegrito caixa-alta vermelho">contrato</span> 
+        abaixo e depois 
+        <span class="cegrito caixa-alta vermelho">assine</span> 
+        e envie por 
+        <span class="cegrito caixa-alta vermelho">e-mail</span>
+        .
+    </p>
+
+    <span id="exibirDadosLogin"></span>
+
+    <span>bla bla bla</span>
+    <i>bla bla bla</i>
+
+    <script>
+        function exibir(){
+            console.log("oi! cheguei!!")
+            alert("eu sou o alert")
+        }
+    </script>
+
+</body>
+</html>
